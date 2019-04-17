@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>下拉菜单</title>
+
+<style type="text/css">
+div{ height:1500px; background-color:#fff}
+
+li{ list-style:none;}
+#uouter{ width:200px;height:400px;}
+.uiner{width:50px; height:300px; margin:0px; padding:0px; position:absolute; display:none}
+.louter{ width:100px; height:30px; float:left; padding:0px}
+.uiner li{ margin:0px; padding:0px;}
+
+.louter:hover .uiner{ display:block}
+
+</style>
+
+</head>
+
+<body>
+<ul id="uouter">
+
+<li class="louter">文件
+    <ul class="uiner">
+    <li>打开
+    </li>
+    <li>保存
+    </li>
+    </ul>
+    <div>
+    </div>
+</li>
+
+<li class="louter">编辑
+    <ul class="uiner">
+    <li>粘贴
+    </li>
+    <li>撤销
+    </li>
+    </ul>
+     <div>
+    </div>
+</li>
+</ul>
+</body>
+</html>
