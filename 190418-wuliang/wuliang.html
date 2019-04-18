@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			var ing='48294746';
+			ing=ing.split('')
+			alert(ing.sort(function  (a,b) {
+				return b-a;
+			})[0]);
+
+			//countryList=["America","Greece","Britain","Canada","China","Egypt"]检索有多少a
+			var countryList=["America","Greece","Britain","Canada","China","Egypt"];
+			var c=/a/ig;
+			var d=countryList.join('').match(c).length;
+			alert(d);
+			
+</script>
+</body>
+</html>
