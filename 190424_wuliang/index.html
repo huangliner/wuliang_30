@@ -1,0 +1,18 @@
+   <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8">
+    </head>
+    <body>    
+
+           <script>
+			  String[] a = { "2", "10" };
+		String[] b = { "1", "6", "3","9" };
+		List<String> alist = new ArrayList<>(Arrays.asList(a));
+		List<String> blist = new ArrayList<>(Arrays.asList(b));
+		blist.retainAll(alist);
+		System.out.println(blist.size() == alist.size());
+
+    </script>
+    </body>
+    </html>
