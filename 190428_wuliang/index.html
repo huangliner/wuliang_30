@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<script>
+			alert(zy.call(Math, 2, 8));
+			alert(zy.apply(Math, [2, 8]));
+
+
+			var a = [1, 2, 3, 5];
+			alert(Math.max.apply(Math, a));
+
+
+			function zy() {
+				var lx = 0;
+				for (var i = 0; i < arguments.length; i++) {
+					num += arguments[i];
+				}
+				return lx;
+			}
+		</script>
+	</body>
+</html>
